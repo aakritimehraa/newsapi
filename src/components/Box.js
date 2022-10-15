@@ -5,7 +5,7 @@ function Box({title , autho , date , img}) {
     <div className='box'>
 
 
-    <img src={img} />
+    <img src={img} alt='' />
     <h2>{title}</h2>
     <p>{autho}</p>
     <p>{date.substring(0, 10)}</p>
